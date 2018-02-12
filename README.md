@@ -1,8 +1,8 @@
 # Highrise
 
-Highrise is a Bash shell script for generating super resolution images from a stack of low-resolution photos. Script is based on [https://github.com/pixlsus/Scripts/tree/master/superres](https://github.com/pixlsus/Scripts/tree/master/superres).
+Highrise is a Bash shell script for generating super resolution images from a stack of lower resolution photos. Script is based on [https://github.com/pixlsus/Scripts/tree/master/superres](https://github.com/pixlsus/Scripts/tree/master/superres).
 
-<img src="highrise.png" alt="highrise" width="375">
+<img src="highrise.png" alt="highrise" width="300">
 
 # Dependencies
 
@@ -17,7 +17,8 @@ To install the required packages on openSUSE, use the following command:
 ## Installation
 
 ```
-git clone git@github.com:dmpop/highrise.git
+git clone https://github.com/dmpop/highrise.git
+cd highrise
 sudo cp highrise.sh /usr/local/bin/highrise
 sudo chown root:root /usr/local/bin/highrise
 sudo chmod 755 /usr/local/bin/highrise
