@@ -2,7 +2,11 @@
 
 # Bash shell script for generating a super resolution images from stacks of lower resolution photos.
 # Based on https://github.com/pixlsus/Scripts/tree/master/superres
-# 
+
+# Align parameters
+c="100" # number of control points
+corr="0.5" # correlation between control points
+t="3"   # error margin (in pixel) for matches
 
 # Check whether the required packages are installed
 if [ ! -x "$(command -v convert)" ] || [ ! -x "$(command -v align_image_stack)" ] || [ ! -x "$(command -v exiftool)" ]; then
@@ -58,7 +62,7 @@ convert *.$ext -resize 200% $dir/resized/%04d.jpg
 cd $dir/resized || exit 1
 
 # Auto-align resized images and crop them to aligned area
-align_image_stack --use-given-order --distortion -C -z -a aligned --corr=0.8 -t 1 -c 100 -v *.jpg
+align_image_stack --use-given-order --distortion -C -z -a aligned --corr=$corr -t $t -c $c -v *.jpg
 cd $dir
 
 # Obtain file name of the first file in the working directory
