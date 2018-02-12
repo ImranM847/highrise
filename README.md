@@ -21,6 +21,12 @@ sudo chown root:root /usr/local/bin/highrise
 sudo chmod 755 /usr/local/bin/highrise
 ```
 
+## Prepare Source Photos
+
+1. Set your camera to continuous shooting
+2. Disable optical stabilization (optional) and shoot hand-held
+3. Take between 8 and 15 photos
+
 ## Usage
 
     highrise -e [EXT] -d [DIR]
