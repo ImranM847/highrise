@@ -2,7 +2,7 @@
 
 Highrise is a Bash shell script for generating super-high resolution images from a stack of lower-resolution photos. Script is based on [https://github.com/pixlsus/Scripts/tree/master/superres](https://github.com/pixlsus/Scripts/tree/master/superres).
 
-<img src="highrise.png" alt="highrise" width="300">
+<img src="highrise.png" alt="highrise" width="200">
 
 # Dependencies
 
