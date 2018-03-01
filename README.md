@@ -2,8 +2,6 @@
 
 Highrise is a Bash shell script for generating super-resolution images from a stack of lower-resolution photos. Script is based on [https://github.com/pixlsus/Scripts/tree/master/superres](https://github.com/pixlsus/Scripts/tree/master/superres).
 
-<img src="highrise.png" alt="highrise" width="200">
-
 # Dependencies
 
 - ImageMagic
@@ -61,3 +59,9 @@ Dmitri Popov [dmpop@linux.com](mailto:dmpop@linux.com)
 ## License
 
 The [GNU General Public License version 3](http://www.gnu.org/licenses/gpl-3.0.en.html)
+
+## Linux Photography
+
+Highrise is a part of a streamlined and automated Linux-based photographic workflow described in the [Linux Photography](https://gumroad.com/l/linux-photography) book. Get your copy at [Google Play Store](https://play.google.com/store/books/details/Dmitri_Popov_Linux_Photography?id=cO70CwAAQBAJ) or [Gumroad](https://gumroad.com/l/linux-photography).
+
+<img src="https://scribblesandsnaps.files.wordpress.com/2016/07/linux-photography-6.jpg" width="200"/>
