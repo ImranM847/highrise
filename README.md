@@ -25,7 +25,7 @@ sudo chmod 755 /usr/local/bin/highrise
 ## Prepare Source Photos
 
 1. Set your camera to continuous shooting
-2. Disable optical stabilization (possibly not necessary) and shoot hand-held
+2. Disable optical stabilization and shoot hand-held
 3. Take between 8 and 15 photos
 
 Keep in mind that Highrise works best with photos of static subjects.
